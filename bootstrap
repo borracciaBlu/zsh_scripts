@@ -1,0 +1,4 @@
+for file in ${ZSH_SCRIPTS}/*.sh; do
+  [[ -r $file ]] && . $file
+done
+unset file
